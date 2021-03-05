@@ -1,6 +1,6 @@
 # matplotlib-challenge
 
-##Background
+## Background
 This jupyter notebook examines mice in a study. The following datapoints are given for each mouse:
 *   Mouse ID
 *   Drug Regimen
@@ -11,7 +11,7 @@ This jupyter notebook examines mice in a study. The following datapoints are giv
 *   Tumor Volume (mm3)
 *   Metastatic Sites
 
-##Methods
+## Methods
 The following visual methods were used to present the data:
 *   Bar plot for the Total Number of Measurements for each Drug Regimen.
 *   Pie chart for the distribution of male vs female mice.
@@ -21,12 +21,12 @@ The following visual methods were used to present the data:
 
 Opportunities arose to try several different methods to ensure the same result (using dictionary comprehension, .pivot, etc. to provide the dataframe for Boxplot, for example). These were labeled as such in an attempt to reduce confusion.
 
-##Limitations:
+## Limitations:
 * The data was analyzed for opportunities to clean and reduce error. 
 * We identified a mouse that had data from duplicate timepoints. However, the data at these duplicated timepoints was different, making it difficult to decide what data for this mouse (g989) to keep.
 * Additionally, not all mice have the same number of timepoints data. Instructions to analyze the "last timepoint" for each mouse are consequently ambiguous and may not be sufficiently considered.
 
-##Observations
+## Observations
 1. The study mice are fairly evenly distributed across gender.
 2. Mice treated with Capomulin and Ramicane has smaller tumor volume measurements are their last timepoint than those treated with Ceftamin or Infubinol based on the box plot.
 3. For mice on the Capomulin regimen, weight is strongly positively correlated with tumor volume (ie  mice with lower weights are more likely to have lower tumor volumes;   mice with higher weights are more likely to have higher tumor volumes).
